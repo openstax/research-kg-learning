@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<HEAD>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</HEAD>
+<BODY>
+
+  <h1>A Case Study in Bootstrapping Ontology Graphs from Textbooks</h1>
+  <h5>In the Proceedings of the 2021 Conference on Automated Knowledge Base Construction</h5>
+
+  <h2>Code</h2>
+  <ol>
+    <li><a href="https://github.com/openstax/research-kg-learning">Code for Automated Term and Relation Extractor</a></li>
+    <li><a href="https://github.com/openstax/research-wrst">Code for Relationship Selection Tool</a></li>
+  </ol>
+      
+
+<h2>Textbook Data</h2>
+
+<ol>
+<li><a href="https://openstax.org/details/books/biology-2e">Bio2e</a> (
+  
+ <a href ="https://rice.box.com/s/6osn7uzln0pmjc51hm6x9m5dvgc34vrn">Textbook sentences</a>
+ <a href ="https://rice.box.com/s/d7aau73151j6jbvfxhag8jxumnc9bo3i">Terms</a> )
+</li>
+
+
+<li><a href="https://openstax.org/details/books/psychology-2e">Psychology 2e</a> (
+
+ <a href ="https://rice.box.com/s/ym291rv86nhhnl6ciklw5atfzv7wkrpe">Textbook sentences</a>
+ <a href ="https://rice.box.com/s/p5wx6iertzyr2nruj6jbhu8nm723f0th">Terms</a>  )
+</li>
+
+
+
+<li><a href="https://openstax.org/details/books/chemistry-2e">Chemistry 2e</a> (
+
+<a href ="https://rice.box.com/s/bqrd8zck8ou39mjjdkvyux7ge21z5vqo">Textbook sentences</a>
+ <a href ="https://rice.box.com/s/z7fkdf55ywtolfwvj3o4c97re3ql2y3m">Terms</a>  )
+</li>
+
+
+<li><a href="https://openstax.org/details/books/anatomy-and-physiology">Anatomy and Physiology</a> (
+
+ <a href ="https://rice.box.com/s/eo0nep9b1ush59uq1ux37gecg614xnkp">Textbook sentences</a>
+ <a href ="https://rice.box.com/s/kwjnk9pat0b1elpuy18huvqmq9ockpt6">Terms</a> )
+
+
+<li> <a href="https://openstax.org/details/books/astronomy">Astronomy</a> (
+
+ <a href ="https://rice.box.com/s/wtnzi7p1pfhdwama5ocimqab2zk14mwv">Textbook sentences</a>
+ <a href ="https://rice.box.com/s/b7cfb2tl73i7jf6xlrks92yq2e2qkr18">Terms</a> )
+</li>
+
+
+<li> <a href="https://openstax.org/details/books/university-physics-volume-1">University Physics Volume 1 (
+
+<a href ="https://rice.box.com/s/d3qjy154s0glrm8p82tykdmw2ea2mv7p">Textbook sentences</a>
+ <a href ="https://rice.box.com/s/jvrj70gsee9wmw2mtpob84g9df35jnd6">Terms</a> )
+</li>
+
+
+  <li> <a href="https://openstax.org/details/books/university-physics-volume-2">University Physics Volume 2 (
+
+ <a href ="https://rice.box.com/s/o5ecr6rdohdkrx9l6uq6igxvyarzn0bp">Textbook sentences</a>
+ <a href ="https://rice.box.com/s/fh46n2l5zw5soi0c107ib46r62cmzox4">Terms</a> )
+</li>
+
+
+<li> <a href="https://openstax.org/details/books/university-physics-volume-3">University Physics Volume 3 (
+
+ <a href ="https://rice.box.com/s/k6k6oscau05u7xu295tiscz3vt2qn8tj">Textbook sentences</a>
+ <a href ="https://rice.box.com/s/ux5zz7k1jlyi765q0f3z92eymalzmymn">Terms</a> )
+</li>
+
+
+<li> <a href="https://openstax.org/details/books/microbiology">Microbiology</a> (
+
+ <a href ="https://rice.box.com/s/yt6wzo98fziwyypn5swwvl660byxf9e7">Textbook sentences</a>
+ <a href ="https://rice.box.com/s/3brawkueblpbg6joumo2fze8ym899jcz">Terms</a> )
+</li>
+    
+</ol>
+
+
+<h2>KB Bio 101</h2>
+
+Complete export of KB Bio 101 is
+  available <a href="http://www.ai.sri.com/~halo/public/exported-kb/biokb.html">here.</a>
+  (KB Bio 101 is owned by Vulcan Inc. and is licensed for use under
+  the <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative
+  Commons Attribution-NonCommerical-ShareAlike 3.0 license</a>). For
+  this project, the extracted training data is available below.
+
+<ol>
+  <li><a href="https://rice.box.com/s/75yrk0t3o91gzgx4fj2rkefyumk5w68v">List of concepts</a></li>
+  <li><a href="https://rice.box.com/s/pf2buy63rwsecqj5mpsl9snlexocybfk">KB Lexicon</a></li>
+  <li><a href="https://rice.box.com/s/k3j3xblzwtqyrgxp6nopd5sa0j5v32gh">Taxonomic Relations</a></li>
+  <li><a href="https://rice.box.com/s/ns2yk80ypne48wr7zizo2ljz1c2snxzw">Structural Relations</a></li>
+  <li><a href="https://rice.box.com/s/4gg577luzsc3tqp275sjj2pny7wt94ar">Process Relations</a></li>
+</ol>
+
+    
+<h2>Automated Term Extraction Evaluation</h2>
+
+<a href="https://github.com/openstax/research-kg-learning">Link to Github Repo</a> <br>
+<a href="https://rice.box.com/s/k4s9ir0fgos8vu6iicmxkq971xj82r32">Automated Term Extractor Model</a> 
+
+<ol>
+  <li>Gold terms validated by domain experts:
+<a href="https://rice.box.com/s/k31k2ltyibh2hnqljd5qti5vholszir7"> Bio 2e  4.2</a> 
+<a href="https://rice.box.com/s/ybl4byzd068zv7lxp6ak0cyz2qomfqw7"> Bio 2e  10.2</a>
+<a href="https://rice.box.com/s/nblvr3102t9ue2npz8nmh9dmxxmo611b"> Psych 2e 14.1</a> 
+</li>
+
+<li>Terms Predicted by the Automated Term Extraction Model
+<a href="https://rice.box.com/s/8xp3jndop7mkklhd4i5ftkx8ssz3u7gc"> Bio 2e 4.2</a> 
+<a href="https://rice.box.com/s/vp649myatx4m48x1rgm2j58164tz1jul"> Bio 2e 10.2</a>
+<a href="https://rice.box.com/s/famg6w0tmbw3a6l6cw2olrrkslpifay1">Psych 2e  14.1</a> 
+</li>
+
+
+<li>Terms Predicted by the AWS Key Phrase Extraction Service
+<a href="https://rice.box.com/s/4o64d6szx2m9kci99gml00jvnzc1b5ub"> Bio 2e  4.2</a> 
+<a href="https://rice.box.com/s/uyz1u9gomhz0pg80xbaezfk5545p9eev"> Bio 2e  10.2</a>
+<a href="https://rice.box.com/s/u4uohy46zy7ev4oxu3eqhwjldfaflczs">Psych 2e  14.1</a> 
+</li>
+
+</ol>
+
+<h2>Automated Relation Extraction Evaluation</h2>
+
+<a href="https://rice.box.com/s/8n1heoujhs20wemowapo0fqqhbzymil1">Automated Relation Extractor Model</a> <br>
+
+Evaluation of 
+<a href="https://rice.box.com/s/5gfuo9awnnnqhh8rmhx7rrov28414hmm">Predicted Relations</a> 
+
+<h2>Relationship Selection Task Evaluation</h2>
+
+<ol>
+  <li> RST data collected from the crowd (raw)
+    <ul><li>Bio 2e 4.2
+      <a href="https//rice.box.com/s/ia8etvzg27nheefndq3ynq5fzozb5p0f">Relations</a>
+	       <a href="https://rice.box.com/s/3f93kd4yoftyxwcwct3mdju8twag36f0">Users</a></li>
+    
+      <li>Bio 2e 10.2 
+      <a href="https://rice.box.com/s/dghhiklwpwjvl4ejjf4aroti36jozj6w">Relations</a>
+      <a href="https://rice.box.com/s/alcdz2es8v0ahwbrm2rwkkkg510iua67">Users</a></li>
+      
+      <li>Psych 2e 14.1 
+      <a href="https://rice.box.com/s/7e0gts56av3n6pzh65srnyprt8d9mwvu">Relations</a>
+      <a href="https://rice.box.com/s/avwmv2skoybcppe6v3toyj8jgdaw58nq">Users</a></li>
+      </ul></li>
+  
+  <li>RST data collected from the crowd (denoised)
+    <ul>
+      <li>Bio 2e 4.2 
+      <a href="https://rice.box.com/s/3zmst488tbnuxfss6l39xenffds2zd63">Full</a>
+      <a href="https://rice.box.com/s/4w1f2usnwgyzfrdwpfqrjn527w7slklw">Sample of 50</a></li>
+      
+      <li>Bio 2e 10.2
+      <a href="https://web.stanford.edu/~vinayc/tokn/2021-akbc/">Full</a>
+	<a href="https://rice.box.com/s/oc2qhq4cgzqzcmab4vjkmn7mv52975rl">Sample of 50</a>
+	</li>
+      <li>Psych 2e 14.1 
+      <a href="https://rice.box.com/s/7r9lte9w3p60bdqwwo7n2dewdfkmmmdf">Full</a>
+      <a href="https://rice.box.com/s/rtfqhozq56r8mwd33liodyqilprt5fwu">Sample of 50</a>
+    </ul>
+    </li>
+  <li>Gold Relationships Validated by SMEs
+    <ul>
+      <li>Bio 2e 4.2 
+      <a href="https://rice.box.com/s/n3eb7bel66hvxb1c6faqln9s5o0lquxc">SME 1</a>
+      <a href="https://rice.box.com/s/7qzn76lmno5kq3l3zefv3h9iwaeelkgh">SME 2</a>
+      <a href="https://rice.box.com/s/v7lb1h1gc1mlfymjb6q6b5nyc1s6ivsx">Consensus</a>
+      </li>
+      
+      <li>Bio 2e 10.2 
+      <a href="https://rice.box.com/s/8xux1c2plrcs63iwmchtvf5g4ivuxbmf">SME 1</a>
+      <a href="https://rice.box.com/s/r384spragcmbwthqty7y989bb2vi0s4f">SME 2</a>
+      <a href="https://rice.box.com/s/ee6p5swucu0ulnlr0vt4yqonw2dvsam3">Consensus</a>
+      </li>
+      
+      <li>Pschy 2e 14.1
+      <a href="https://rice.box.com/s/abesyqof2letrqnfehef2co2s7bme0ji">SME 1</a>
+      <a href="https://rice.box.com/s/jvoer9mnsa8j0ba98t2dlagy5jxv0oyh">SME 2</a>
+      <a href="https://rice.box.com/s/fldvw10yxs1jnh6b7fhxkng2xcfm9ygg">Consensus</a>
+      </li>
+      </ul>
+  </li>
+  </ol>
+
+
+
+<h2>Exported Knowledge Graphs</h2>
+<ol>
+  <li>Triple format <a href="https://rice.box.com/s/ej3beee9f4mowk7oudlg3tc1azxea61g">Bio 2e 4.2</a>
+    <a href="https://rice.box.com/s/g38yk33kicolrw6qvkngazehrmg4ugaf">Bio 2e 10.2</a>
+    <a href="https://rice.box.com/s/gpfw584ws3xe31uu3azxfex4z20o38bp">Psych 2e 2e 14.1</a>
+  </li>
+</ol>
+
+
+
+</BODY>
+</HTML>
